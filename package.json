@@ -1,0 +1,23 @@
+{
+  "name": "sst-triage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "diff": "sst diff",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.114.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "1.114.0",
+    "@aws-cdk/core": "1.114.0",
+    "@serverless-stack/cli": "0.40.6",
+    "@serverless-stack/resources": "0.40.6",
+    "aws-sdk": "^2.987.0"
+  }
+}
